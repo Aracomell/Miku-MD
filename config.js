@@ -7,14 +7,14 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['94726083178']
-global.OwnerNumber = ['94726083178']
-global.ownertag = ['94726083178']
-global.BotName = "Miku"
-global.packname = "Miku bot"
-global.author = "By: amoung us"
-global.OwnerName = "amoung us"
-global.BotSourceCode = "https://github.com/lilybotz"
+global.Owner = ['6289510598381']
+global.OwnerNumber = ['6289510598381']
+global.ownertag = ['6289510598381']
+global.BotName = "𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛"
+global.packname = "Created By 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛"
+global.author = "Made By @YogzFX"
+global.OwnerName = "YogzFX"
+global.BotSourceCode = "https://github.com/ZennSky"
 global.SupportGroupLink = "https://"
 global.sessionName = "session"
 
@@ -23,7 +23,7 @@ global.sessionName = "session"
 global.prefa = ['.'] 
 
 
-global.location = "tokoyo, japan"
+global.location = "Mars"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
