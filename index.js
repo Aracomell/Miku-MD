@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Miku Bot MD', {
+console.log(color(figlet.textSync('𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -26,14 +26,14 @@ console.log(color(figlet.textSync('Miku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: FantoX001','aqua'))
+console.log(color('\nHello, I am YogzFX, the main developer of this bot.\n\nThanks for using: 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛','aqua'))
+console.log(color('\nYou can follow me on GitHub: YogzFX','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Miku by: Fantox','Safari','1.0.0'],
+        browser: ['Miku by: YogzFX','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -128,7 +128,7 @@ ${metadata.desc}
 `
 
 let Mikubuttons = [
-    {buttonId: `none`, buttonText: {displayText: '🏵️ Welcome buddy 🏵️'}, type: 1}
+    {buttonId: `none`, buttonText: {displayText: '🏵️ Welcome 🏵️'}, type: 1}
     ]
     let buttonMessage = {
     jpegThumbnail: mikuWelcomepp,
@@ -148,7 +148,7 @@ I hope you will come back soon, but we are not going to miss you though!
 `
 
 let Mikubuttons = [
-    {buttonId: `none`, buttonText: {displayText: '👋 Sayonara buddy 👋'}, type: 1}
+    {buttonId: `none`, buttonText: {displayText: '👋 Sayonara 👋'}, type: 1}
     ]
     let buttonMessage = {
     jpegThumbnail:mikuByepp,
